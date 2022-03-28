@@ -1,0 +1,9 @@
+// just delete that if u want
+
+{
+  "/api":
+  {
+    "target": "https://api.myanimelist.net",
+    "secure": false
+  }
+}

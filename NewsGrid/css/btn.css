@@ -1,0 +1,54 @@
+/* buttons */
+
+.btn {
+    display: inline-block;
+    border: none;
+    background: var(--dark);
+    color: white;
+    padding: 0.5rem 1.5rem;
+}
+
+.btn-light { background: var(--light) }
+.btn-primary { background: var(--primary) }
+.btn-secondary { background: var(--secondary) !important}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+/* backgrounds */
+.bg-dark,
+.bg-dark > * > * {
+    background: var(--dark);
+    color: white;
+}
+.bg-primary,
+.bg-primary > * > * {
+    background: var(--primary);
+    color: white;
+}
+.bg-secondary,
+.bg-secondary > * > * {
+    background: var(--secondary);
+    color: white;
+}
+
+/* paddings */
+.py-1 { padding: 1.5rem 0 }
+.py-2 { padding: 2rem 0 }
+.py-3 { padding: 3rem 0 }
+
+.p-1 { padding: 1.5rem }
+.p-2 { padding: 2rem }
+.p-3 { padding: 3rem }
+
+p {
+    margin: 0.5rem 0;
+}
+

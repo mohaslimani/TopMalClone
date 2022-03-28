@@ -1,0 +1,14 @@
+<section id="home-articles" class="py-2">
+  <div class="container">
+      <div class="articles-container">
+        <article *ngFor="let ar of arr" class="card">
+          <img src={{ar.images.jpg.large_image_url}} alt="" width="90%">
+          <div>
+              <div class="category category-ent"> Ranking #{{ar.rank}} | Year: {{ar.year}} | Score: {{ar.score}}</div>
+              <h3> <a target="_blank" href={{ar.url}}>{{ar.title}}</a> </h3>
+              <p>{{ar.synopsis.split(" ").splice(0, 30).join(" ")}}</p>
+          </div>
+        </article>
+      </div>
+  </div>
+</section>
