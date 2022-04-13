@@ -8,11 +8,11 @@ run `npm install` then `npm start`
 
 ## To do
 i still need to
-----add the manga section (input/output)
-----the routing /manga /anime 
-----home component ?
-----About/contact component
-----remove Contact from navbar
-----a sign in using myApi or firebase
-----detail component & /detail/id route (will parse the other infos)
------------(there is a difference between manga & anime Objects be awar of that)
+----add the manga section (input/output) <br>
+----the routing /manga /anime <br>
+----home component ? <br>
+----About/contact component <br>
+----remove Contact from navbar <br>
+----a sign in using myApi or firebase <br>
+----detail component & /detail/id route (will parse the other infos) <br>
+-----------(there is a difference between manga & anime Objects be awar of that) <br>
