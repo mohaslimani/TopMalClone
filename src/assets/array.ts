@@ -8,11 +8,11 @@ export interface myArray {
   mal_id: number,
   url: string,
   rank: number,
-  year: number,
   score: number,
   title: string,
   images: myImage;
   synopsis: string
+  // published: {prop: {from:{year: number}}},
 }
 
 

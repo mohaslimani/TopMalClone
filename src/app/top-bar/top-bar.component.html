@@ -1,28 +1,26 @@
-<nav class="navbar" style="min-width: 100vw; margin: 0;">
+<nav class="navbar" (window:resize)="returnToPC($event)">
   <div class="container">
 
     <div class="navbar-header">
-      <button class="navbar-toggler">
-        <span></span>
-        <span></span>
-        <span></span>
+      <button class="navbar-toggler" (click)="ham()">
+        <span></span><span></span><span></span>
       </button>
-      <a href="#">
-        <h4>Top<span>MaL</span>Clone</h4>
+      <a routerLink="/">
+        Top<span>MaL</span>Clone
       </a>
     </div>
 
-    <div class="navbar-menu" id="open-navbar1">
+    <div class="navbar-menu" id="n-menu">
       <ul class="navbar-nav">
-        <li class=""><a href="#">Home</a></li>
-        <li class="navbar-dropdown">
-          <a href="#" style="color: #C4C440; font-weight: 900;" class="dropdown-toggler">
+        <li class=""><a routerLink="/">Home</a></li>
+        <li>
+          <a href="#" style="color: #C4C440; font-weight: 900;">
             AnimEEE
           </a>
         </li>
-        <li class="navbar-dropdown">
-          <a href="#" style="color: #4D4DC0; font-weight: 900;" class="dropdown-toggler">
-            MangaaaAA <i class="fa fa-angle-down"></i>
+        <li>
+          <a href="#" style="color: #4D4DC0; font-weight: 900;">
+            MangAAA
           </a>
         </li>
         <li><a href="#">About</a></li>

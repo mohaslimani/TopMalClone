@@ -12,4 +12,19 @@ export class TopBarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  ham = () => {
+    let navbarMenu = document.getElementById('n-menu')
+    if (navbarMenu && navbarMenu.style.display === 'flex') {
+      navbarMenu.style.display = 'none'
+      return
+    }
+    navbarMenu!.style.display = 'flex'
+  }
+
+  returnToPC = (e: any) => {
+    if (e.target.innerWidth >= 768){
+      let navbarMenu = document.getElementById('n-menu');
+      navbarMenu!.style.display = 'flex'
+    }
+  }
 }

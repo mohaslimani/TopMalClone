@@ -1,9 +1,0 @@
-.page-container {
-    display: grid;
-    grid-template-columns: 5fr 2fr;
-    margin: 2rem 0;
-}
-
-.page-container > *:first-child {
-    grid-row: 1 / span 3;
-}
