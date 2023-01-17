@@ -16,3 +16,6 @@ i still need to
 ----a sign in using myApi or firebase <br>
 ----detail component & /detail/id route (will parse the other infos) <br>
 -----------(there is a difference between manga & anime Objects be awar of that) <br>
+
+
+## fuck npm and their versioning & fuck wsl --redo it in kali and understand why web apps are always like that
